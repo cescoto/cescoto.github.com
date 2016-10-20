@@ -8,11 +8,11 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 html {
   background-color: #323232;
-  color: white;
-  font-size: 1.125em;
-  font-family: serif;
-  line-height: 1.222em;
-  padding: 1.222em 0.916em;
+  color: #d8d8f6;
+  font-size: 1em;
+  font-family: sans-serif;
+  line-height: 1.2em;
+  padding: 1.2em 0.916em;
 }
 
 img,
@@ -26,36 +26,56 @@ a:link {
 }
 
 a:visited {
-  color: #6e7f80;
+  color: #4c5d6e;
 }
 
 h1 {
-  font-size: 1.62em;
-  color: #c00;
+  font-size: 1.728em;
+  color: #176314;
+  text-align: center;
+  padding-bottom: 0.833em;
 }
 
 h2 {
-  font-size: 1.35em;
+  font-size: 1.44em;
+  color: #8b2635;
+}
+
+footer {
+  color: #415a77;
 }
 
 .header {
   color: white;
   font-family: sans-serif;
-  padding: 0 0 5%;
+  line-height: 1;
+  padding-bottom: 1.62em;
 }
 
 .header li {
-  display: inline-flex;
+  display: inline-block;
 }
 
 .header a {
   text-decoration: none;
+  padding-top: 0.722em;
+  padding-bottom: 0.722em;
 }
 
 .contact {
   text-align: center;
 }
 
-.education {
-  list-style: disc;
+.education li {
+  list-style: square;
+  padding-left: 0.543em;
+}
+
+.work_experience li {
+  list-style: square;
+  padding-left: 0.543em;
+}
+
+.pos li {
+  font-style: italic;
 }

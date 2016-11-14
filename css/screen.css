@@ -9,10 +9,16 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 html {
   background-color: #323232;
   color: #d8d8f6;
-  font-size: 1em;
+  font-size: 1.125em; /* 18px */
   font-family: sans-serif;
-  line-height: 1.2em;
-  padding: 1.2em 0.916em;
+  line-height: 1.125em; /* 18px */
+  padding: 1em;
+}
+
+body {
+  font-size: 1em;
+  line-height: 1em;
+  margin: auto;
 }
 
 img,
@@ -30,14 +36,18 @@ a:visited {
 }
 
 h1 {
-  font-size: 1.728em;
+  font-size: 1.722em;
+  line-height: 1.161em;
+  margin-top: 0.581em;
   color: #176314;
   text-align: center;
-  padding-bottom: 0.833em;
 }
 
 h2 {
-  font-size: 1.44em;
+  font-size: 1.444em;
+  line-height: 1.384em;
+  margin-top: 0.692em;
+  margin-bottom: 0.692em;
   color: #8b2635;
 }
 
@@ -45,11 +55,18 @@ footer {
   color: #415a77;
 }
 
+ul ul {
+  margin-left: 1.5em;
+  margin-bottom: 1em;
+}
+
+li li {
+  list-style: disc;
+}
+
 .header {
   color: white;
   font-family: sans-serif;
-  line-height: 1;
-  padding-bottom: 1.62em;
 }
 
 .header li {
@@ -58,24 +75,8 @@ footer {
 
 .header a {
   text-decoration: none;
-  padding-top: 0.722em;
-  padding-bottom: 0.722em;
 }
 
 .contact {
   text-align: center;
-}
-
-.education li {
-  list-style: square;
-  padding-left: 0.543em;
-}
-
-.work_experience li {
-  list-style: square;
-  padding-left: 0.543em;
-}
-
-.pos li {
-  font-style: italic;
 }

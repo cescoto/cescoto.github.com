@@ -9,9 +9,9 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 html {
   background-color: #323232;
   color: #d8d8f6;
-  font-size: 1.125em; /* 18px */
+  font-size: 1.125em;
   font-family: sans-serif;
-  line-height: 1.125em; /* 18px */
+  line-height: 1.125em;
   padding: 1em;
 }
 
